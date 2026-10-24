@@ -8,6 +8,11 @@ class KatakZuma:
 		self.warna_peluru = warna_baru
 		self.load_gambar(warna_baru)
 
+	def load_gambar(self, warna):
+		#mekanisme load gambar
+		pass
+
+
 	def tembak(self):
 		if self.is_active:
 			self.skor += 50
